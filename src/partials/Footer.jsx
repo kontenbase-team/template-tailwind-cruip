@@ -12,33 +12,11 @@ function Footer() {
             <div className="mb-2">
               {/* Logo */}
               <Link to="/" className="inline-block" aria-label="Cruip">
-                <svg
-                  className="w-8 h-8"
-                  viewBox="0 0 32 32"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <defs>
-                    <radialGradient
-                      cx="21.152%"
-                      cy="86.063%"
-                      fx="21.152%"
-                      fy="86.063%"
-                      r="79.941%"
-                      id="footer-logo"
-                    >
-                      <stop stopColor="#4FD1C5" offset="0%" />
-                      <stop stopColor="#81E6D9" offset="25.871%" />
-                      <stop stopColor="#338CF5" offset="100%" />
-                    </radialGradient>
-                  </defs>
-                  <rect
-                    width="32"
-                    height="32"
-                    rx="16"
-                    fill="url(#footer-logo)"
-                    fillRule="nonzero"
-                  />
-                </svg>
+                <img
+                  className="h-6"
+                  src="/src/public/images/logo-on-light.png"
+                  alt="Kontenbase Logo"
+                />
               </Link>
             </div>
             <div className="text-sm text-gray-600">
@@ -60,14 +38,14 @@ function Footer() {
 
           {/* 2nd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-gray-800 font-medium mb-2">Products</h6>
+            <h6 className="text-gray-800 font-medium mb-2">Features</h6>
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
                   to="#"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Web Studio
+                  Data Modeling
                 </Link>
               </li>
               <li className="mb-2">
@@ -75,7 +53,7 @@ function Footer() {
                   to="#"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  DynamicBox Flex
+                  REST API
                 </Link>
               </li>
               <li className="mb-2">
@@ -83,7 +61,7 @@ function Footer() {
                   to="#"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Programming Forms
+                  SDK
                 </Link>
               </li>
               <li className="mb-2">
@@ -91,7 +69,7 @@ function Footer() {
                   to="#"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Integrations
+                  Auth
                 </Link>
               </li>
               <li className="mb-2">
@@ -99,7 +77,15 @@ function Footer() {
                   to="#"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Command-line
+                  Object Storage
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link
+                  to="#"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                >
+                  Real-Time
                 </Link>
               </li>
             </ul>
@@ -122,6 +108,14 @@ function Footer() {
                   to="#"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
+                  Getting Started
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link
+                  to="#"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                >
                   Tutorials & Guides
                 </Link>
               </li>
@@ -130,7 +124,7 @@ function Footer() {
                   to="#"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Blog
+                  Examples
                 </Link>
               </li>
               <li className="mb-2">
@@ -138,7 +132,15 @@ function Footer() {
                   to="#"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Support Center
+                  Help Center
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link
+                  to="#"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                >
+                  University
                 </Link>
               </li>
               <li className="mb-2">
@@ -169,15 +171,7 @@ function Footer() {
                   to="#"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  About us
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Company values
+                  About
                 </Link>
               </li>
               <li className="mb-2">
@@ -193,7 +187,15 @@ function Footer() {
                   to="#"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
-                  Privacy Policy
+                  Blog
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link
+                  to="#"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                >
+                  Team
                 </Link>
               </li>
             </ul>
@@ -227,7 +229,7 @@ function Footer() {
                         aria-hidden="true"
                       ></span>
                       <svg
-                        className="w-3 h-3 fill-current text-blue-600 mx-3 flex-shrink-0"
+                        className="w-3 h-3 fill-current text-red-600 mx-3 flex-shrink-0"
                         viewBox="0 0 12 12"
                         xmlns="http://www.w3.org/2000/svg"
                       >
@@ -301,14 +303,7 @@ function Footer() {
 
           {/* Copyrights note */}
           <div className="text-sm text-gray-600 mr-4">
-            Made by{' '}
-            <a
-              className="text-blue-600 hover:underline"
-              href="https://cruip.com/"
-            >
-              Cruip
-            </a>
-            . All rights reserved.
+            Copyright &copy; 2022 Kontenbase. All rights reserved
           </div>
         </div>
       </div>

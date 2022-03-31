@@ -2,10 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+    <link
+      rel="shortcut icon"
+      href="/src/public/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" type="image/svg+xml" href="/src/public/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Kontenbase</title>
   </head>
+
   <body class="font-inter antialiased bg-white text-gray-900 tracking-tight">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <script>
@@ -15,6 +22,7 @@
         document.querySelector('body').classList.remove('sidebar-expanded');
       }
     </script>
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

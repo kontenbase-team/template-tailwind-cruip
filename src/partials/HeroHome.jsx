@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
+import { Link } from 'react-router-dom';
 
-import HeroImage from '../images/hero-image.png';
+import HeroImage from '../public/hero-image.png';
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -68,17 +69,18 @@ function HeroHome() {
                 data-aos-delay="300"
               >
                 <div>
-                  <a
+                  <Link
                     className="btn text-white bg-red-600 hover:bg-red-700 w-full mb-4 sm:w-auto sm:mb-0"
-                    href="#0"
+                    to="/signup"
                   >
                     Sign up for free
-                  </a>
+                  </Link>
                 </div>
                 <div>
                   <a
                     className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
-                    href="#0"
+                    href="https://docs.kontenbase.com"
+                    target="_blank"
                   >
                     Documentation
                   </a>

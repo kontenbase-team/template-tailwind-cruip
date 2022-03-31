@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
-import FeaturesBg from '../images/features-bg.png';
-import FeaturesElement from '../images/features-element.png';
+import FeaturesBg from '../public/features-bg.png';
+import FeaturesElement from '../public/features-element.png';
 
 function Features() {
   const [tab, setTab] = useState(1);
@@ -50,11 +50,10 @@ function Features() {
               data-aos="fade-right"
             >
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Powerful suite of tools</h3>
+                <h3 className="h3 mb-3">Powerful data modeling</h3>
                 <p className="text-xl text-gray-600">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa.
+                  Quikcly create a service for your data service. You can
+                  customize the fields on the go!
                 </p>
               </div>
               {/* Tabs buttons */}
