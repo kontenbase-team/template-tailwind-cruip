@@ -14,7 +14,7 @@ function Footer() {
               <Link to="/" className="inline-block" aria-label="Cruip">
                 <img
                   className="h-6"
-                  src="/src/public/logo-on-light.png"
+                  src="../public/logo-on-light.png"
                   alt="Kontenbase Logo"
                 />
               </Link>

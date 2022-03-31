@@ -27,7 +27,7 @@ function Header() {
             <Link to="/" className="block" aria-label="Cruip">
               <img
                 className="h-10"
-                src="/src/public/logo-on-light.png"
+                src="../public/logo-on-light.png"
                 alt="Kontenbase Logo"
               />
             </Link>
